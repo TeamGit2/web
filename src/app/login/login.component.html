@@ -1,0 +1,17 @@
+<div class="col-md-6 offset-md-3">
+    <h3 class="text-center">Bienvenidos</h3>
+    <br/>
+    <br/>
+    <form>
+       <div class="form-group">            
+            <input type="text" class="form-control" id="user_name" [(ngModel)]="user_name" name="user_name" placeholder="Usuario">
+       <br>
+            <input type="password" class="form-control" id="password" [(ngModel)]="password" name="password" placeholder="Contraseña">       
+       </div>
+       <br/>
+       <br/>
+       <div class="d-flex justify-content-center">
+       <button (click)="login()" class="btn btn-primary">Iniciar Sesion</button>
+    </div>
+    </form>
+  </div>
